@@ -17,7 +17,7 @@ function Header() {
         <div className="">
           <h1 className="font-semibold text-2xl">Jarsky</h1>
         </div>
-        <div className="pt-4 pb-[2px] md:pt-0 md:pb-0">
+        <div className="hidden md:flex pt-4 pb-[2px] md:pt-0 md:pb-0">
           <Link href={"/"} className={"px-4 py-2 rounded-md hover:bg-zinc-100"}>
             About
           </Link>
@@ -28,6 +28,11 @@ function Header() {
             Contact
           </Link>
         </div>
+        <button className="absolute top-7 left-3 md:hidden py-3 px-4 mx-2 rounded focus:outline-none hover:bg-gray-200">
+          <div className="w-6 h-1 bg-gray-600 mb-1"></div>
+          <div className="w-6 h-1 bg-gray-600 mb-1"></div>
+          <div className="w-6 h-1 bg-gray-600 mb-1"></div>
+        </button>
       </div>
     </div>
   );
