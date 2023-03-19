@@ -35,11 +35,9 @@ export default function Home() {
           </span>
           <p>
             Halo, nama saya Raihan, dan saya adalah seorang junior programmer
-            yang berdedikasi dan bersemangat. Sejak kecil, saya selalu tertarik
-            dengan IT, dan minat saya terus berkembang hingga saya memutuskan
-            untuk mengejar karier di bidang ini. Saya telah mengumpulkan
-            pengalaman dan keterampilan yang luas dalam Web Programming selama
-            bertahun-tahun.
+            yang berdedikasi dan bersemangat. Ini adalah website pertama yang
+            saya buat dengan Next.js dan Tailwind CSS. Maaf jika ada kesalahan
+            dalam website ini, karena saya masih belajar. Terima kasih.
           </p>
         </div>
       </div>
