@@ -49,7 +49,7 @@ function Header() {
       <div
         className={
           isOpen
-            ? "fixed md:hidden top-0 w-full h-[25%] bg-white border-[3px] border-black shadow-[8px_8px_0_0_#000000] transition duration-150"
+            ? "absolute md:hidden top-0 w-full h-[45%] bg-white border-[3px] border-black shadow-[8px_8px_0_0_#000000] transition duration-150"
             : "hidden"
         }
       >
